@@ -1,0 +1,14 @@
+version: 2
+
+sources:
+  - name: google_sales_data
+    schema: GOOGLE_DRIVE_SALES
+    description: "Sources from our Google Drive Sales folder"
+    tables:
+      - name: google_sales
+
+  - name: facebook_ads_data 
+    schema: FACEBOOK_ADS
+    description: "Facebook Ads data"
+    tables:
+      - name: ads
